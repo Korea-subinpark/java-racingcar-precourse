@@ -12,4 +12,8 @@ public class Round {
             throw new IllegalArgumentException("[ERROR] 숫자가 아닌 문자가 입력되었습니다.");
         }
     }
+
+    public int getRound() {
+        return round;
+    }
 }
